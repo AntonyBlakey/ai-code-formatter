@@ -1,0 +1,22 @@
+{
+  "name": "ai-code-formatter",
+  "version": "1.0.0",
+  "description": "Format source code using gpt",
+  "main": "dist/cli.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "1.7.7",
+    "commander": "12.1.0",
+    "dotenv": "16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "22.5.4",
+    "typescript": "5.5.4"
+  }
+}
